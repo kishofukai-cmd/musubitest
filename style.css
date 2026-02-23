@@ -373,6 +373,46 @@ button {
   background: rgba(255, 255, 255, 0.2);
 }
 
+/* ヒーローCTA */
+.hero__cta-area {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.hero__cta-btn {
+  display: inline-block;
+  padding: 16px 48px;
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: #fff;
+  background: linear-gradient(135deg, var(--color-gold), #c9a56c);
+  border-radius: 100px;
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(183, 155, 105, 0.4);
+  transition: all 0.3s ease;
+}
+
+.hero__cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 28px rgba(183, 155, 105, 0.5);
+}
+
+.hero__price {
+  margin-top: 12px;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 0.05em;
+}
+
+.hero__price-tax {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 /* ============================================================
    VIDEO LOOP (パララックス)
    ============================================================ */
@@ -959,6 +999,21 @@ button {
   font-weight: 400;
   letter-spacing: 0.05em;
   margin-bottom: 6px;
+}
+
+.sizes__panel-price {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  letter-spacing: 0.03em;
+  margin-bottom: 8px;
+}
+
+.sizes__panel-price span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--color-text-sub);
 }
 
 .sizes__panel-dim {
@@ -1782,6 +1837,19 @@ button {
 .closing__proof strong {
   color: #fff;
   font-weight: 600;
+}
+
+.closing__price {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 0.05em;
+  margin-bottom: 24px;
+}
+
+.closing__price span {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .closing__cta {
